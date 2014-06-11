@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<link href='http://fonts.googleapis.com/css?family=Rambla:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Orbitron:400,700,500' rel='stylesheet' type='text/css'>
+<link href='css/styles.css' rel='stylesheet' type='text/css'>
+<title>Pong Game for Zappos</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+<script src="js/jquery.simpleWeather.js"></script> 
+<script src="js/PongEngine.js"></script> 
+
+</head>
+<body>
+<h1 class="zlogo">
+    
+        <img src="http://www.igameradio.com/game_assets/images/pongindiedevchallenge2.png" width="257"  border="0" >
+     
+</h1>
+
+  <div id="container">
+    <div id="score">
+      You: <span id="playerScore">0</span> <div style="width: 200px; display:inline;" >&nbsp;&nbsp;&nbsp;&nbsp;</div> Computer: <span id="compScore">0</span>
+   </div>
+   <canvas id="pongGame" width="800" height="450">  
+      Your browser does not support HTML5 
+   </canvas>
+    <div id="replay">
+            <button type="button" class="button" onClick="location.reload();">Play Again</button>
+    </div>
+  </div>
+
+  <div id="weather"></div>
+
+</body>
+</html>
